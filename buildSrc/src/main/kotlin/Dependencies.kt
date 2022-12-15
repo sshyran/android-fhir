@@ -63,12 +63,6 @@ object Dependencies {
     const val caffeine = "com.github.ben-manes.caffeine:caffeine:${Versions.caffeine}"
   }
 
-  object Jackson {
-    const val annotations = "com.fasterxml.jackson.core:jackson-annotations:${Versions.jackson}"
-    const val core = "com.fasterxml.jackson.core:jackson-core:${Versions.jackson}"
-    const val databind = "com.fasterxml.jackson.core:jackson-databind:${Versions.jackson}"
-  }
-
   object Kotlin {
     const val kotlinCoroutinesAndroid =
       "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Kotlin.kotlinCoroutinesCore}"
@@ -206,7 +200,6 @@ object Dependencies {
     const val guava = "28.2-android"
     const val hapiFhir = "6.0.1"
     const val http = "4.9.1"
-    const val jackson = "2.12.2"
     const val jsonToolsPatch = "1.13"
     const val jsonAssert = "1.5.1"
     const val kotlinPoet = "1.9.0"
